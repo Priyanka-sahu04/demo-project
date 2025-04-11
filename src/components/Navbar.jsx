@@ -31,16 +31,7 @@ const Navbar = ({ user, onLogout }) => {
     <nav className="bg-neutral-800 p-2 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <div className="text-2xl font-bold text-neutral-100">MyShop</div>
-
-        {/* Search Bar */}
-        <div className="flex-1 mx-4">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="w-full px-3 py-1 text-neutral-100 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
-
+        
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 relative">
           <a href="/home" className="text-neutral-200 hover:bg-blue-600 p-2 rounded-full">
